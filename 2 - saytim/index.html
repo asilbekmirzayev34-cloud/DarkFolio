@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DarkFolio | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <nav class="navbar">
+            <h2 class="logo">DarkFolio</h2>
+
+            <ul class="nav-links">
+                <li><a href="#home">Bosh sahifa</a></li>
+                <li><a href="#about">Men haqimda</a></li>
+                <li><a href="#projects">Loyihalar</a></li>
+                <li><a href="#contact">Aloqa</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <p class="welcome">PORTFOLIOGA XUSH KELIBSIZ</p>
+            <h1>Men zamonaviy saytlar yarataman.</h1>
+            <p>G‘oyalarni chiroyli va qulay veb-saytlarga aylantiraman.</p>
+            <a href="#projects" class="btn">Loyihalarni ko‘rish</a>
+        </section>
+
+        <section id="about" class="section">
+            <h2>Men haqimda</h2>
+            <p>Men HTML, CSS va JavaScript yordamida veb-saytlar yarataman.</p>
+        </section>
+
+        <section id="projects" class="section">
+            <h2>Mening loyihalarim</h2>
+
+            <div class="project-card">
+                <h3>Portfolio Website</h3>
+                <p>Zamonaviy va minimalist portfolio dizayni.</p>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+    <h2>Men bilan bog‘laning</h2>
+    <p>Loyihangiz bormi? Menga xabar yuboring.</p>
+
+    <form id="contact-form">
+        <input
+            type="text"
+            id="name"
+            placeholder="Ismingiz"
+            required
+        >
+
+        <input
+            type="email"
+            id="email"
+            placeholder="Email manzilingiz"
+            required
+        >
+
+        <textarea
+            id="message"
+            placeholder="Xabaringiz"
+            required
+        ></textarea>
+
+        <button type="submit" class="btn">
+            Xabar yuborish
+        </button>
+    </form>
+</section>
+    </main>
+
+    <footer>
+        <p>© 2026 DarkFolio. Barcha huquqlar himoyalangan.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
